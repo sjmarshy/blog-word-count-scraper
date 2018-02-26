@@ -5,16 +5,17 @@
     "license": "MIT",
     "scripts": {
         "build": "tsc",
-        "start": "node index.js"
+        "start": "micro"
     },
     "dependencies": {
         "cheerio": "^1.0.0-rc.2",
+        "micro": "^9.1.0",
         "node-fetch": "^2.0.0"
     },
     "devDependencies": {
-        "prettier": "^1.10.2",
-        "typescript": "^2.7.2",
         "@types/cheerio": "^0.22.7",
-        "@types/node-fetch": "^1.6.7"
+        "@types/node-fetch": "^1.6.7",
+        "prettier": "^1.10.2",
+        "typescript": "^2.7.2"
     }
 }

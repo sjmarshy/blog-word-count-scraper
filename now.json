@@ -1,3 +1,5 @@
 {
-    "BEEMINDER_AUTH_TOKEN": "@beeminder-api-key"
+    "env": {
+        "BEEMINDER_AUTH_TOKEN": "@beeminder-api-key"
+    }
 }
