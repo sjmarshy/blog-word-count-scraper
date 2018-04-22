@@ -8,9 +8,11 @@
         "start": "micro"
     },
     "dependencies": {
+        "@types/raven": "^2.5.1",
         "cheerio": "^1.0.0-rc.2",
         "micro": "^9.1.0",
-        "node-fetch": "^2.0.0"
+        "node-fetch": "^2.0.0",
+        "raven": "^2.5.0"
     },
     "devDependencies": {
         "@types/cheerio": "^0.22.7",

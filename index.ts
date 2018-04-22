@@ -1,5 +1,10 @@
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
+import Raven from 'raven';
+
+Raven.config(
+    'https://3feb8b95c583427ba5c82d1796644c2d@sentry.io/1193874',
+).install();
 
 let latestWordcount = 0;
 
@@ -19,8 +24,8 @@ const update = () =>
                 }&value=${value}`,
                 {
                     method: 'POST',
-                }
-            )
+                },
+            ),
         )
         .then(res => res.json())
         .then(x => console.log(x))
